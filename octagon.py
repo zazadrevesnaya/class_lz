@@ -46,7 +46,6 @@ class Octagon:
         ax.set_xlim(-self.radius_circumscribed * 1.2, self.radius_circumscribed * 1.2)
         ax.set_ylim(-self.radius_circumscribed * 1.2, self.radius_circumscribed * 1.2)
         ax.set_aspect('equal')
-        ax.legend()
         plt.grid()
         plt.title("Octagon Circumscribed Around Inscribed Circle")
         plt.show()
